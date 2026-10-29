@@ -258,5 +258,5 @@ Base path : $BASE_PATH
 Addons    : $ADDONS_PATH
 Start     : $BASE_PATH/run_odoo.sh -i base      (first run on a new DB)
             $BASE_PATH/run_odoo.sh              (afterwards)
-To restore an existing DB see: $BASE_PATH/scripts/restore_odoo.sh
+To restore an existing DB see: $BASE_PATH/backup/restore_odoo.sh
 EOF

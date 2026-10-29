@@ -62,5 +62,5 @@ echo "==> Loading '$ZIP' into database '$TARGET_DB'..."
     python3 odoo-bin db --addons-path="$ADDONS_PATH" load ${LOAD_FLAGS[@]+"${LOAD_FLAGS[@]}"} "$TARGET_DB" "$ZIP"
 )
 
-echo "==> Done. Start Odoo with: ./run_odoo.sh -d $TARGET_DB"
+echo "==> Done. Start Odoo with: ./run/run_odoo.sh -d $TARGET_DB"
 echo "    If addons code changed since the backup, run once with: -u all --stop-after-init"
